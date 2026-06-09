@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+import { RESUME_URL } from "./links";
+
 const links = [
   { href: "#work", label: "Work" },
   { href: "#about", label: "About" },
@@ -69,7 +71,7 @@ export function Nav() {
 
               {/* RESUME BUTTON (CLEAN PILL STYLE) */}
               <a
-                href="https://drive.google.com/file/d/1J1ZXjEFiXszemxlMik0MPa492SnSPJ4k/view"
+                href={RESUME_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="

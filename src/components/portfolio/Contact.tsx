@@ -1,5 +1,7 @@
 import { useReveal } from "@/hooks/use-reveal";
 
+import { RESUME_URL } from "./links";
+
 export function Contact() {
   const { ref, visible } = useReveal();
 
@@ -27,7 +29,7 @@ export function Contact() {
     {
       label: "Resume",
       value: "zaeemulhaq_Resume",
-      href: "https://drive.google.com/file/d/1J1ZXjEFiXszemxlMik0MPa492SnSPJ4k/view",
+      href: RESUME_URL,
       icon: (
         <svg
           className="h-4 w-4"
