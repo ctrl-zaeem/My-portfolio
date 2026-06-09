@@ -8,7 +8,7 @@ import { Contact, Footer } from "@/components/portfolio/Contact";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Alex Morgan — Independent Designer & Engineer" },
+      { title: "Zaeem ul Haq - AI Engineer and Web Developer" },
       {
         name: "description",
         content:
@@ -16,7 +16,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "Alex Morgan — Independent Designer & Engineer",
+        content: "Zaeem ul Haq - AI Engineer and Web Developer",
       },
       {
         property: "og:description",
